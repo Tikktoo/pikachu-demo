@@ -8,7 +8,7 @@
 
 <strong>源码链接：</strong><p>本网页</p>
 
-<strong>预览链接：</strong><a href="https://yuyunzhi.github.io/baymax/index.html">大白呀大白</a>
+<strong>预览链接：</strong><a href="https://tikktoo.github.io/pikachu-demo/">pikachu</a>
 
 <h2>一、所需要的知识点</h2>
 
@@ -72,21 +72,6 @@ document.documentElement.style.fontSize= `${pageWidth/60}px`
 ```
 
 <p>我这里用的60倍的放缩。</p>
-
-<h3>7、sass编译</h3>
-
-<ul>
-    <li>将px转化为rem，在scss文件加入以下代码</li>
-</ul>
-
-```
-@function px( $px ){
-    @return $px/$designWidth*60 + rem;
-  }
-  $designWidth : 1500;//这是原稿的宽度
-```
-
-<p>转化一次，就变成rem了，之后在其他不同窗口rem就能生效了。</p>
 
 <h2>二、功能实现</h2>
 
